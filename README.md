@@ -1,4 +1,4 @@
-# Twinkle [![Build Status](https://travis-ci.org/azatoth/twinkle.svg?branch=master)](https://travis-ci.org/azatoth/twinkle)
+# Twinkle (Ed6767 fork)
 
 Twinkle is a JavaScript application that gives Wikipedians a quick way of performing common maintenance tasks, such as nominating pages for deletion and cleaning up vandalism.
 
@@ -6,19 +6,15 @@ See [Wikipedia:Twinkle][] on the English Wikipedia for more information.
 
 [AzaToth][] is the original author and maintainer of the tool, as well as the `morebits.js` library gadget, which forms the basis for many Wikipedia scripts and editing tools in addition to Twinkle.
 
-## How to file a bug report or feature request
+## Goal of this fork
 
-If you're unsure whether you are experiencing a Twinkle-based bug, you should first try asking at [Wikipedia talk:Twinkle][], where other editors may assist you.  Bugs may be filed either here or at [Wikipedia talk:Twinkle][].  For simple feature requests or changes (e.g., a template was deleted or renamed) feel free to open an issue or pull request here, but for more significant changes, consider discussing the idea on [Wikipedia talk:Twinkle][] and any relevant pages first to ensure there is consensus for the change and to get broader community input.  If you believe you have found a security issue, follow the guidelines in [SECURITY.md](./SECURITY.md).
+* Make Twinkle easier to develop!
+* Finally bring Twinkle into the 2010s by implimenting OOUI features, which can be enabled/disabled in preferences if people don't like them
+* Increase Twinkle's user friendliness by implimenting some tweaks
 
-If you'd like to start contributing, awesome!  Check out [CONTRIBUTING.md](CONTRIBUTING.md) to get started!
+## B-but didn't you already make RedWarn?
 
-
-## Layout of this repository
-
-* `morebits.js`: The central library used by Twinkle and many other scripts. Contains code to interact with the MediaWiki API, display forms and dialogs, generate status logs, and do various other useful things. The vast majority of code in here is not Twinkle-specific.
-* `twinkle.js`: General Twinkle-specific code, mostly related to preferences and exposing Twinkle in the UI. Significantly, it contains the default set of preferences of Twinkle.
-* `modules`: Contains the individual Twinkle modules. Descriptions for these can be found in header comments or in the [Twinkle documentation][]. The module `twinkleconfig.js` powers the [Twinkle preferences panel][WP:TWPREFS].
-
+Yes, but Twinkle covers a much wider scope than RedWarn does and all tools should be accessable for all Wikimedians, both the computer litterate and illiterate.
 
 [select2][] is added under the [MIT license](https://github.com/select2/select2/blob/develop/LICENSE.md).
 
