@@ -1,0 +1,5 @@
+BUILD
+* Structure repo - put source in /src and move tests to tests - done
+* Add reload feature to load all of Twinkle from Webserver
+
+How to develop:
